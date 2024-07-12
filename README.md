@@ -289,12 +289,21 @@ Example for the sample provided at the /test_sequences. This example contains re
 	# Re-aligning the BAM file
 	hla-mapper dna bam=HG01890_HLA-A.bam sample=HG01890 output=/home/USER/output/HG01890 
 	# Aligning FASTQ 
-	hla-mapper dna r1=HG01890_HLA-A_R1.fastq r1=HG01890_HLA-A_R2.fastq sample=HG01890 output=/home/USER/output/HG01890  
+	hla-mapper dna r1=HG01890_HLA-A_R1.fastq r1=HG01890_HLA-A_R2.fastq sample=HG01890 output=/home/USER/output/HG01890
+	or
+	hla-mapper dna r1=HG01890_HLA-A_R1.fastq.gz r1=HG01890_HLA-A_R2.fastq.gz sample=HG01890 output=/home/USER/output/HG01890  
 ```
+
+
+For large FASTQ files, you should align all reads against the hg38+decoy reference genome (same used by the 1000Genomes project) and run `hla-mapper dna bam=`
 
 You should indicate a different output folder for each sample.
 
 The final BAM is the ".adjusted.bam". You can inspect/explore the BAM files using IGV.
+
+The ".unique.bam" file contains only the uniquelly-aligned reads. You should not use this file.
+
+<br/><br/>
 
 This is an example of what to expect for HLA-A when aligning reads to the hg38 genome reference with BWA-MEM (upper panel) and after hla-mapper alignment (lower panel).
 
