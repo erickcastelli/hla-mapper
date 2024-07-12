@@ -1,9 +1,0 @@
-[bwa_index] Pack FASTA... 0.00 sec
-[bwa_index] Construct BWT for the packed sequence...
-[bwa_index] 0.00 seconds elapse.
-[bwa_index] Update BWT... 0.00 sec
-[bwa_index] Pack forward-only FASTA... 0.00 sec
-[bwa_index] Construct SA from BWT and Occ... 0.00 sec
-[main] Version: 0.7.16a-r1181
-[main] CMD: /usr/local/bin/bwa index /Users/erick/Dropbox/programa/c++/hla-mapper/internal_files/databases/hla-mapper_db_002.1/local-gen/HLA-C/HLA-C.fas
-[main] Real time: 0.005 sec; CPU: 0.004 sec
