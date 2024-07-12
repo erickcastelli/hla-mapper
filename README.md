@@ -92,17 +92,17 @@ To install hla-mapper and all its dependencies, use Conda and the hla-mapper.yml
 	conda config --set channel_priority true
 ```
 
-3. Clone the [Kir-mapper GitHub repo](https://github.com/erickcastelli/hla-mapper)
+3. Clone the [hla-mapper GitHub repo](https://github.com/erickcastelli/hla-mapper)
 ```
 	git clone https://github.com/erickcastelli/hla-mapper.git
 ```
 
-4. Enter the kir-mapper repository.
+4. Enter the hla-mapper repository.
 ```
 	cd hla-mapper
 ```
 
-5. Now, download the last version of the kir-mapper database:
+5. Now, download the last version of the hla-mapper database:
 ```
 	wget --no-check-certificate https://www.castelli-lab.net/support/hla-mapper_4_db_latest.zip
 ```
@@ -112,7 +112,7 @@ To install hla-mapper and all its dependencies, use Conda and the hla-mapper.yml
 	unzip hla-mapper_4_db_latest.zip
 ```
 
-7. Use conda to create an environment for kir-mapper using the kir-mapper.yml from the repository
+7. Use conda to create an environment for hla-mapper using the hla-mapper.yml from the repository
 ```
 	conda env create -f hla-mapper.yml
 ```
@@ -129,7 +129,7 @@ To install hla-mapper and all its dependencies, use Conda and the hla-mapper.yml
 
 10. Compile hla-mapper from the /build folder
 ```
-	BOOST_ROOT=/home/USER/miniconda3/envs/kir-mapper ZLIB_ROOT=/home/USER/miniconda3/envs/kir-mapper cmake ../src/
+	BOOST_ROOT=/home/USER/miniconda3/envs/hla-mapper ZLIB_ROOT=/home/USER/miniconda3/envs/hla-mapper cmake ../src/
 	make
 ```
 
@@ -186,7 +186,7 @@ To compile the program, assuming that everything above is available, follow thes
 	make
 ```
 
-5. Now, download the last version of the kir-mapper database:
+5. Now, download the last version of the hla-mapper database:
 ```
 	wget --no-check-certificate https://www.castelli-lab.net/support/hla-mapper_4_db_latest.zip
 ```
