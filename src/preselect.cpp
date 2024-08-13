@@ -191,7 +191,7 @@ void main_preselect ()
         int db_version_ok = 0;
         for( std::string line; getline( file_db, line ); )
         {
-            if (line == "hla-mapper:4") {
+            if (line == "hla-mapper:4.3+") {
                 db_version_ok = 1;
                 continue;
             }
