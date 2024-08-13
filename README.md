@@ -1,6 +1,6 @@
 hla-mapper
 =======
-Version 4.5 (July 2024)
+Version 4.5.1 (Aug 2024)
 
 Author: Erick C. Castelli (erick.castelli@unesp.br)
 
