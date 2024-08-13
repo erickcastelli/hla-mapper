@@ -253,10 +253,6 @@ void main_preselect ()
         
         v_command = "mkdir " + v_output;
         v_system_out = GetStdoutFromCommand(v_command);
-        v_command = "rm -rf " + v_output + "/*";
-        v_system_out = GetStdoutFromCommand(v_command);
-        v_command = "rm -rf " + v_output + "/log/";
-        v_system_out = GetStdoutFromCommand(v_command);
         v_command = "mkdir " + v_output + "/log/";
         v_system_out = GetStdoutFromCommand(v_command);
     
