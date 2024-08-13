@@ -45,9 +45,9 @@ unsigned long v_memory = getTotalSystemMemory() / long(1024) / long(1024) / long
 //Program identification
 string Program_name = "hla-mapper";
 string Program_company = "GeMBio/Unesp";
-string Program_version = "4.5";
+string Program_version = "4.5.1";
 string Program_author = "Erick C. Castelli";
-string Program_date = "Jan 26th 2024";
+string Program_date = "Aug 13th 2024";
 string Program_website = "www.castelli-lab.net/apps/hla-mapper";
 
 
