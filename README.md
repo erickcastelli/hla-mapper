@@ -2,7 +2,7 @@ hla-mapper
 =======
 Version 4.5.1 (Aug 2024)
 
-Author: Erick C. Castelli (erick.castelli@unesp.br)
+Author: Erick C. Castelli, from Unesp/Brazil (erick.castelli@unesp.br)
 
 Citation: Hla-mapper: Castelli EC et al. An application to optimize the mapping of HLA sequences produced by massively parallel sequencing procedures. Human Immunology, Volume 79, Issue 9, September 2018, Pages 678-684.
 
